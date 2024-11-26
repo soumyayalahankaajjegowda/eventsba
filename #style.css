@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+header {
+    background: #af4c61;
+    color: rgb(30, 43, 218);
+    padding: 1rem 0;
+    text-align: center;
+}
+header {
+    display: flex;
+    align-items: center;
+    background: #4CAF50;
+    color:white;
+    padding:1rem 0;
+    text-align:center;
+    height:150px;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+header h1 {
+    margin: 0;
+}
+
+.styled-images{
+   width:300px;
+   height: auto;
+   border:5px solid #333;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+nav {
+    margin-top: 0.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    background: #f4f4f4;
+}
+
+section h2 {
+    color: #4CAF50;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: square;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+ 
