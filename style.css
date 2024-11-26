@@ -2,16 +2,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    line-height: 2;
     color: #333;
 }
 
 
 header {
     background: #af4c61;
-    color: rgb(30, 43, 218);
+    color: #1e2bda;
     padding: 1rem 0;
     text-align: center;
+}
+header h1:hover {
+  color: #2b0303;
+  font-size:100px;
+
 }
 header {
     display: flex;
@@ -22,25 +27,27 @@ header {
     text-align:center;
     height:150px;
   }
-
-  header h1 {
+  
+   h1 {
     margin: 0;
     font-size: 2.5rem;
+    text-align:center;
   }
-
-header h1 {
+  
+   h1 {
+    background: #4CAF50;
     margin: 0;
-}
-
+  }
+ 
 .styled-images{
-   width:300px;
+   width: 100px;
    height: auto;
-   border:5px solid #333;
-   border-radius: 10px;
-   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+   border: 3cap solid #333;
+   border-radius: 2.5%;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 nav {
-    margin-top: 0.5rem;
+    margin-top: 0.8;
 }
 
 nav a {
@@ -54,7 +61,8 @@ nav a:hover {
 }
 
 main {
-    padding: 2rem;
+  text-align: center;
+    padding: 1rem;
     background: #f4f4f4;
 }
 
@@ -63,16 +71,16 @@ section h2 {
     margin-bottom: 1rem;
 }
 
-ul {
-    list-style-type: square;
-}
 
+/*ul {
+  list-style-type: square;
+}*/
 footer {
     text-align: center;
-    padding: 1rem;
+    padding: 0.01rem;
     background: #333;
     color: white;
-    position: fixed;
+   /* position:;*/
     bottom: 0;
     width: 100%;
 }
@@ -105,24 +113,22 @@ form button {
     color: white;
     border: none;
     cursor
+
 ul{
     list-style-type: none;
-    margin: 0;
+    margin: 1px 1px;
     padding: 0;
     overflow: hidden;
     background-color: #333;
   }
   
   li {
-    float: left;
+    /*float: right;*/
     border-right: 1px solid #bbb;
   }
   
-  li:last-child {
-    border-right: none;
-  }
   
-  li a {
+ li a {
     display: block;
     color: white;
     text-align: center;
@@ -130,11 +136,48 @@ ul{
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  /li a:hover:not(.active) {
     background-color: #111;
   }
   
   .active {
     background-color: #04AA6D;
   }
- 
+ .gif-container {
+   text-align: center;
+   margin-top: 20px;
+ }
+ .gif_container img {
+   width: 300px;
+   height:auto;
+   border: 2px solid #4CAF50;
+   border-radius: 10px;
+   box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ }
+ .event-table {
+  width: 80%; 
+  margin: 20px auto; 
+  border-collapse: collapse; 
+  text-align: left;
+  font-family: Arial, sans-serif;
+  outline: 3px solid #4CAF50;
+  outline-offset: 10px;
+}
+
+.event-table th, .event-table td {
+  border: 1px solid #ddd; 
+  padding: 12px; 
+}
+.event-table th {
+  background-color: #4CAF50; 
+  color: white; 
+  text-align: center;
+}
+.event-table tr:nth-child(even) {
+  background-color: #f9f9f9; 
+}
+
+.event-table tr:hover {
+  background-color: #f1f1f1; 
+}
